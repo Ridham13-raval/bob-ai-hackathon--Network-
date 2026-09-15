@@ -8,22 +8,23 @@
 #   - Use double quotes around all string values
 # =============================================================================
 
-team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+team:Network
+  name: "Ridham"                             # REQUIRED — e.g., "Orion Squad"
+  track: "AI"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "RIDHAM"                           # REQUIRED — e.g., "Alice Chen"
+    email: "26it076"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Rutanshu"                         # REQUIRED — Team member 1
+      email: "26it083"
+    - name: "Lakshya"                         # Add more members by copying the two lines above
+      email: "26it084"
+    - name: "Arnav"
+      email: "26it007"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Sentinelchain"
+                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
     Replace this text with a concise description of the real-world problem
@@ -34,18 +35,18 @@ submission:
     and how it addresses the problem above.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+    - "Real-time threat detection"                       # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
+    - " AI-based anomaly detection"
+    - "Suspicious activity alerts"
+    - "Security monitoring"                               # optional 4th
+    - "Threat analysis"                              # optional 5th
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages: [Python", "TypeScript"]                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    frameworks: ["FastAPI", "React"]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    databases: ["PostgreSQL", "Redis"]                      # e.g., ["PostgreSQL", "Redis"]
+    other: ["Docker", "GitHub Actions", "Slack API"]                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
     Replace with what aspect of the submission you consider strongest
